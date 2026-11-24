@@ -240,7 +240,6 @@
       : 'Average indexed monthly earnings: ' + money(r.aime) + ' (from 35 years at ' + money(inp.earnings) + ' a year).');
     setText('out-big', money(r.atFra) + ' / month');
     setText('out-big-sub', 'at full retirement age (' + r.fraText + ')');
-    setText('sticky-big', money(r.atFra) + ' / mo');
 
     for (var age = 62; age <= 70; age++) {
       setText('out-age-' + age, money(r.byAge[age]) + ' / mo');
